@@ -46,12 +46,10 @@
           "foreground": "#ffffff",
           "powerline_symbol": "",
           "properties": {
-            "branch_icon": "",
+            "branch_icon": "",
             "display_stash_count": true,
-            "display_status": false,
+            "display_status": true,
             "display_upstream_icon": true,
-            "postfix": "  ",
-            "prefix": "  ",
             "status_colors_enabled": false
           },
           "style": "powerline",
