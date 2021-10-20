@@ -1,3 +1,3 @@
 # POSH themes
 
-! [POSH] (.adynetro.png)
+![POSH](.adynetro.png)
