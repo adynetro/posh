@@ -71,7 +71,7 @@
           "powerline_symbol": "",
           "properties": {
             "prefix":  "  " ,
-            "template": "{{if .Namespace}}{{.Namespace}}{{else}}undefined{{end}}"
+            "template": "{{.Context}}{{if .Namespace}}{{end}}"
           },
           "style": "diamond",
           "type": "kubectl"
@@ -80,7 +80,7 @@
           "background": "#16C60C",
           "foreground": "#ffffff",
           "properties": {
-            "prefix": "<#A54242>♥ </>",
+            "prefix": "| ",
             "time_format": "15:04"
           },
           "style": "diamond",
