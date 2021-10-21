@@ -34,9 +34,8 @@
           "foreground": "#000000",
           "powerline_symbol": "",
           "properties": {
-            "style": "agnoster_short",
-            "folder_separator_icon": "/ ",
-            "prefix": "  "
+            "style": "folder",
+            "prefix": "  "
           },
           "style": "powerline",
           "type": "path"
@@ -74,18 +73,9 @@
             "template": "{{.Context}}{{if .Namespace}}{{end}}"
           },
           "style": "diamond",
-          "type": "kubectl"
-        },
-        {
-          "background": "#16C60C",
-          "foreground": "#ffffff",
-          "properties": {
-            "prefix": "| ",
-            "time_format": "15:04"
-          },
-          "style": "diamond",
           "trailing_diamond": "",
-          "type": "time"
+          "type": "kubectl"
+          
         },
         {
           "type": "exit",
