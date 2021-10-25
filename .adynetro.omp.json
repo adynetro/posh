@@ -9,6 +9,7 @@
           "foreground": "#ffffff",
           "leading_diamond": "",
           "properties": {
+            "display_user": false,
             "display_host": false,
             "prefix": "  ",
             "postfix": ""
