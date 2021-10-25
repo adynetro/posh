@@ -1,4 +1,4 @@
-# POSH themes
+# POSH theme
 
 ## adynetro
 
