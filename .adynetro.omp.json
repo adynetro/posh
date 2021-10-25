@@ -52,7 +52,7 @@
             "status_colors_enabled": true,
             "local_changes_color": "#ffa601",
             "ahead_color": "#ff5144",
-            "behind_color": "#ffd000"
+            "behind_color": "#a54242"
           },
           "style": "powerline",
           "type": "git"
