@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#a54242",
+          "background": "#000000",
           "foreground": "#ffffff",
           "leading_diamond": "",
           "properties": {
@@ -30,7 +30,7 @@
           }
         },
         {
-          "background": "#FFFF00",
+          "background": "#ffd000",
           "foreground": "#000000",
           "powerline_symbol": "",
           "properties": {
@@ -49,7 +49,10 @@
             "display_stash_count": true,
             "display_status": true,
             "display_upstream_icon": true,
-            "status_colors_enabled": false
+            "status_colors_enabled": true,
+            "local_changes_color": "#ffa601",
+            "ahead_color": "#ff5144",
+            "behind_color": "#ffd000"
           },
           "style": "powerline",
           "type": "git"
