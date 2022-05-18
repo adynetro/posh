@@ -5,7 +5,8 @@
 ![POSH](.adynetro.png)
 
 ## Installation
-Install ohmyhposh from <https://ohmyposh.dev/> and Meslo LGM NF nerd font <https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip>
+
+Install oh-my-posh from <https://ohmyposh.dev/> and Meslo LGM NF nerd font <https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip>
 
 ```posh
 Install-Module oh-my-posh
@@ -19,3 +20,16 @@ Set-PoshPrompt -theme "~\posh\.adynetro.omp.json"
 ```
 
 add poshprompt to ```$PROFILE``` and reload the terminal
+
+add autocomplete 
+
+```posh
+Install-Module PSReadLine -Force
+```
+
+add lines to ```$PROFILE``` and reload the terminal
+
+```posh
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+```
