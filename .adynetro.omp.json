@@ -51,9 +51,9 @@
             "display_status": true,
             "display_upstream_icon": true,
             "status_colors_enabled": true,
-            "local_changes_color": "#ffa601",
-            "ahead_color": "#ff5144",
-            "behind_color": "#a54242"
+            "local_changes_color": "#ff7601",
+            "ahead_color": "#4486ff",
+            "behind_color": "#ff5144"
           },
           "style": "powerline",
           "type": "git"
