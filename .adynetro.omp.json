@@ -22,10 +22,10 @@
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
-          "foreground": "#ffffff",
-          "background": "#a54242",
+          "foreground": "#ffcc00",
+          "background": "#f71616",
           "properties": {
-            "root_icon": "\uF0E7",
+            "root_icon": " \uF0E7",
             "prefix": "",
             "postfix": " "
           }

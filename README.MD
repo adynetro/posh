@@ -21,7 +21,7 @@ Set-PoshPrompt -theme "~\posh\.adynetro.omp.json"
 
 add poshprompt to ```$PROFILE``` and reload the terminal
 
-add autocomplete 
+## Add autocomplete
 
 ```posh
 Install-Module PSReadLine -Force
@@ -32,4 +32,14 @@ add lines to ```$PROFILE``` and reload the terminal
 ```posh
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
+```
+## Add terminal Icons
+
+```posh
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+and add this to ```$PROFILE``` and reload the terminal
+
+```posh
+Import-Module -Name Terminal-Icons
 ```
