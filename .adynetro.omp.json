@@ -66,13 +66,13 @@
           "type": "node"
         },
         {
-          "background": "#0e3ca0",
+          "background": "#055c8f",
           "foreground": "#ffffff",
           "properties": {
             "parse_kubeconfig": true
           },
           "style": "diamond",
-          "template": " \ue7b7 {{if .Namespace}}{{.Namespace}}{{else}}default{{end}} ",
+          "template": " \ue7b7 {{if .Namespace}}{{.Cluster}} \ue0b1 {{.Namespace}} {{else}}default{{end}} ",
           "trailing_diamond": "\ue0b0",
           "type": "kubectl"
         },
