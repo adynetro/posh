@@ -16,7 +16,8 @@ Import-Module oh-my-posh
 clone the repo inside home folder
 
 ```posh
-Set-PoshPrompt -theme "~\posh\.adynetro.omp.json"
+oh-my-posh init pwsh --config "~\posh\.adynetro.omp.json" | Invoke-Expression
+
 ```
 
 add poshprompt to ```$PROFILE``` and reload the terminal
